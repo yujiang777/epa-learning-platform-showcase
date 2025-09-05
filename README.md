@@ -184,66 +184,6 @@ Our platform follows **Domain-Driven Design (DDD)** principles with clear separa
 
 ---
 
-## 🤝 Collaboration & Opportunities
-
-### 💼 Looking For
-I'm actively seeking opportunities to collaborate on:
-- **Enterprise EdTech Projects**: Large-scale educational platform development
-- **AI Integration Consulting**: Implementing AI in existing educational systems
-- **Technical Architecture Review**: System design and scalability consulting
-- **Full-Stack Development Roles**: Senior/Lead developer positions in innovative companies
-
-### 🎯 Ideal Collaboration
-- **Startups** building next-generation educational technology
-- **Established Companies** looking to modernize their learning platforms
-- **Open Source Projects** in the education and AI space
-- **Technical Consulting** for architecture and performance optimization
-
----
-
-## 📄 Technical Documentation
-
-### 📚 Detailed Documentation Available Upon Request
-- **🏗️ Complete System Architecture Document** (45 pages)
-- **🔧 API Specification & Integration Guide** (30 pages)
-- **📊 Database Schema & Migration Strategy** (20 pages)
-- **🚀 Deployment & Operations Manual** (25 pages)
-- **🧪 Testing Strategy & Quality Assurance** (15 pages)
-- **🔒 Security Analysis & Compliance Report** (18 pages)
-
-### 🎓 Technical Presentations
-- **"Building Scalable EdTech with DDD"** - Available as slide deck
-- **"AI Integration Best Practices"** - 45-minute presentation
-- **"Performance Optimization Strategies"** - Case study presentation
-
----
-
-## ⚖️ Important Notice
-
-### 🔐 About Source Code Access
-
-**Please note:** The complete source code for this project is kept private as the platform is being developed with commercial potential and contains proprietary business logic and AI integration strategies.
-
-**What's Available Here:**
-- ✅ **Comprehensive project overview** with technical depth
-- ✅ **Live demo access** showcasing all major features
-- ✅ **Detailed architecture documentation** and system design
-- ✅ **Performance metrics** and optimization strategies
-- ✅ **Technical challenge solutions** and implementation approaches
-
-**For Potential Employers/Collaborators:**
-- 🎥 **Live code review sessions** can be arranged for serious inquiries
-- 📋 **Detailed technical interviews** to discuss implementation specifics
-- 🔍 **Architecture deep-dive sessions** to explore system design decisions
-- 📊 **Performance testing demonstrations** under various load conditions
-
-### 📞 Contact for Code Review
-If you're interested in a technical deep-dive or code review session, please reach out:
-- 📧 **Email**: [wesz7z8z9@gmail.com](mailto:wesz7z8z9@gmail.com)
-- 💼 **LinkedIn**: [linkedin.com/in/jiang-zong-yu](https://www.linkedin.com/in/jiang-zong-yu/?locale=en_US)
-- ☎️ **Schedule a Call**: Available via email arrangement
-
----
 
 <div align="center">
 
@@ -257,6 +197,5 @@ If you're interested in a technical deep-dive or code review session, please rea
 
 ---
 
-**Built with ❤️ by 江宗昱 (Yu Jiang) | © 2024 EPA Learning Platform Showcase**
 
 </div>
