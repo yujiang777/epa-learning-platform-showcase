@@ -1,0 +1,51 @@
+# EPA Learning Platform Showcase Repository
+# This repository contains only documentation and visual materials
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Video files (if too large for GitHub)
+docs/videos/*.mp4
+docs/videos/*.mov
+docs/videos/*.avi
+
+# Keep video folder structure but ignore large files
+!docs/videos/.gitkeep
+
+# Node modules (if any documentation tools used)
+node_modules/
+
+# Python cache (if any documentation scripts used)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Personal notes and drafts
+drafts/
+personal-notes/
+*.draft
+
+# Git credentials and sensitive files
+git_credentials*
+*.key
+*.pem
+.env*
