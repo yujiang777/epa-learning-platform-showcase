@@ -49,7 +49,7 @@ We built an AI-powered learning platform that addresses these pain points throug
 ## ✨ Core Features & Capabilities
 
 ### 🤖 AI Smart Analysis Assistant
-<img src="docs/images/AI%20Smart%20Analysis%20Assistant.png" alt="AI Smart Analysis Assistant" width="600" />
+<img src="docs/images/AI%20Smart%20Analysis%20Assistant.png" alt="AI Smart Analysis Assistant" width="400" />
 - **Multi-AI Model Support**: Choose from OpenAI, Gemini Flash, Claude for explanations
 - **Dual Analysis Modes**: ⚡ Quick Analysis (1-2 mins) or 📚 Detailed Analysis (2-3 mins)
 - **Comprehensive Question Breakdown**: Wrong answer analysis, correct answer explanation, key concepts
@@ -57,7 +57,7 @@ We built an AI-powered learning platform that addresses these pain points throug
 - **Learning Mode Integration**: AI-powered assistance specifically designed for practice sessions
 
 ### 🎯 Learning Mode & Exam Mode
-<img src="docs/images/demo-practice-modes.png.png" alt="Learning Mode & Exam Mode" width="600" />
+<img src="docs/images/demo-practice-modes.png.png" alt="Learning Mode & Exam Mode" width="400" />
 - **Learning Mode**: Quick single-question practice with instant answer feedback for rapid learning
 - **Exam Mode**: Comprehensive testing experience with question number randomization and option shuffling
 - **Flexible Practice**: Switch between focused learning and realistic exam simulation
