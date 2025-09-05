@@ -66,7 +66,6 @@ We built an AI-powered learning platform that addresses these pain points throug
 - **Anti-Memory Training**: Randomized elements prevent muscle memory and ensure true comprehension
 
 ### 📊 Advanced Learning Analytics (Coming Soon)
-![Analytics Dashboard](docs/images/demo-dashboard.png)
 - **Question Type Classification**: Using embedding techniques for intelligent categorization
 - **Similar Weakness Analysis**: AI-powered identification of related knowledge gaps
 - **Performance Tracking**: Comprehensive learning progress monitoring
@@ -76,54 +75,22 @@ We built an AI-powered learning platform that addresses these pain points throug
 
 ## 🛠️ Technology Stack
 
-### 🎨 Frontend Technologies
-![Frontend Stack](https://img.shields.io/badge/React_18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
-
-- **React 18 + TypeScript**: Modern, type-safe frontend development
-- **Radix UI Components**: Accessible, customizable design system
-- **Tailwind CSS**: Utility-first CSS framework for rapid styling
-- **Vite + SWC**: Lightning-fast development and build processes
-- **React Hook Form**: Performant form state management
-
-### ⚡ Backend Architecture
-![Python](https://img.shields.io/badge/Python_3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-- **FastAPI + Pydantic**: High-performance async API with automatic documentation
-- **Domain-Driven Design**: Clean architecture with clear business logic separation
-- **PostgreSQL + Supabase**: Scalable cloud database with Row-Level Security
-- **Redis + Memory Cache**: Dual-tier caching for optimal performance
-- **JWT Authentication**: Secure stateless authentication with role-based access
-
-### 🤖 AI & Machine Learning
-![OpenAI](https://img.shields.io/badge/OpenAI_GPT--4-412991?style=for-the-badge&logo=openai&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Google](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-CC785C?style=for-the-badge&logo=anthropic&logoColor=white)
 
-- **OpenAI GPT-4**: Advanced natural language processing for complex question analysis
-- **Google Gemini**: Multimodal AI for visual content and multimedia processing
-- **Vector Embeddings**: Semantic similarity search for intelligent recommendations
-- **Custom ML Pipeline**: Learning pattern analysis and personalized recommendation engine
-
-### 🚀 DevOps & Monitoring
-![Docker](https://img.shields.io/badge/Docker-0CC1F3?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
-- **Containerized Deployment**: Docker containers for consistent environments
-- **CI/CD Pipeline**: Automated testing, building, and deployment
-- **Health Monitoring**: Real-time system health checks and performance metrics
-- **Error Tracking**: Comprehensive logging and error monitoring system
+**Backend**: Python + FastAPI + PostgreSQL | **Frontend**: React + Vite | **AI**: OpenAI + Gemini + Claude + Vector Embeddings
 
 ---
 
 ## 🏗️ System Architecture
 
 ### 📐 High-Level Architecture Overview
-![System Architecture](docs/images/architecture-overview.png)
 
 Our platform follows **Domain-Driven Design (DDD)** principles with clear separation of concerns:
 
@@ -147,7 +114,6 @@ Our platform follows **Domain-Driven Design (DDD)** principles with clear separa
 ```
 
 ### 🏛️ Domain Model Architecture
-![Domain Model](docs/images/domain-model.png)
 
 **Five Core Business Domains:**
 
@@ -158,7 +124,6 @@ Our platform follows **Domain-Driven Design (DDD)** principles with clear separa
 5. **🤖 AI Enhancement Domain**: Intelligent explanations, recommendations, analysis
 
 ### 🚀 Deployment Architecture
-![Deployment Diagram](docs/images/deployment-diagram.png)
 
 - **Load Balancer**: Distributes traffic across multiple application instances
 - **Application Tier**: Scalable FastAPI containers with health checks
@@ -167,82 +132,6 @@ Our platform follows **Domain-Driven Design (DDD)** principles with clear separa
 - **AI Services**: Dedicated microservices for OpenAI and Gemini integration
 - **Monitoring Stack**: Comprehensive logging, metrics, and alerting
 
----
-
-## 🚧 Technical Challenges & Solutions
-
-### 🎯 Challenge 1: Supporting 10,000+ Concurrent Users
-**The Problem:** Initial architecture couldn't handle high concurrent load, leading to timeouts and degraded performance.
-
-**Our Solution:**
-- **Implemented dual-tier caching strategy** (Redis + Memory) reducing database queries by 83%
-- **Optimized database queries** from 6 API calls to 1 using RPC functions
-- **Added connection pooling** with intelligent connection management
-- **Result:** 🚀 **75% reduction in API response time** (800ms → 200ms)
-
-### 🤖 Challenge 2: Real-time AI Analysis Without Blocking UI
-**The Problem:** AI processing was blocking the user interface, creating poor user experience during analysis.
-
-**Our Solution:**
-- **Implemented async streaming responses** for AI-generated content
-- **Used WebSocket connections** for real-time updates without page refresh
-- **Added intelligent caching** for common AI queries to avoid redundant processing
-- **Result:** ⚡ **2-second AI response time** with non-blocking user experience
-
-### 🔒 Challenge 3: Enterprise-Grade Security & Data Isolation
-**The Problem:** Ensuring strict data isolation in a multi-tenant environment while maintaining performance.
-
-**Our Solution:**
-- **Implemented Row-Level Security (RLS)** at the database level for automatic data filtering
-- **Added JWT-based authentication** with refresh token rotation
-- **Used rate limiting middleware** to prevent abuse and ensure fair resource allocation
-- **Result:** 🛡️ **Zero data breaches** with automated security compliance
-
-### 📊 Challenge 4: Complex Learning Analytics Processing
-**The Problem:** Generating meaningful learning insights from large datasets without impacting system performance.
-
-**Our Solution:**
-- **Built separate analytics pipeline** using async background processing
-- **Implemented event-sourcing pattern** to capture all learning interactions
-- **Used vector embeddings** for intelligent pattern recognition and recommendations
-- **Result:** 📈 **85% accuracy in personalized recommendations** with real-time insights
-
----
-
-## 📊 Performance Metrics & Results
-
-### 🚀 System Performance
-| Metric | Before Optimization | After Optimization | Improvement |
-|--------|--------------------|--------------------|-------------|
-| **API Response Time** | 800ms | <200ms | **75% ⬇️** |
-| **Concurrent Users** | 1,000 users | 10,000+ users | **10x ⬆️** |
-| **Database Queries** | 6 calls/request | 1 call/request | **83% ⬇️** |
-| **Cache Hit Rate** | N/A | 89% | **New Feature** |
-| **Frontend Load Time** | 8 seconds | <3 seconds | **62% ⬇️** |
-| **Memory Usage** | 2GB baseline | 1.4GB baseline | **30% ⬇️** |
-
-### 🎯 Business Impact
-- **40% improvement** in learning effectiveness through personalized AI recommendations
-- **95% user satisfaction** rate based on post-session surveys
-- **60% reduction** in support tickets through improved UX and AI explanations
-- **200% increase** in daily active users compared to previous system
-
-![Performance Metrics](docs/images/performance-metrics.png)
-
----
-
-## 🎬 Additional Demo Materials
-
-### 📹 Feature-Specific Demos
-- **[AI Analysis Demo](https://demo-link-ai.com)**: Watch real-time AI explanation generation
-- **[Performance Test Demo](https://demo-link-perf.com)**: See 1000+ concurrent user load testing
-- **[Mobile Experience Demo](https://demo-link-mobile.com)**: Complete mobile workflow walkthrough
-- **[Admin Dashboard Demo](https://demo-link-admin.com)**: Backend management and analytics
-
-### 📊 Live Monitoring & Metrics
-- **[System Health Dashboard](https://monitor-link.com)**: Real-time system performance
-- **[API Documentation](https://api-docs-link.com)**: Interactive API explorer
-- **[Analytics Dashboard](https://analytics-link.com)**: Learning insights and user behavior
 
 ---
 
