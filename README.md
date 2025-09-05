@@ -157,7 +157,7 @@ Our platform follows **Domain-Driven Design (DDD)** principles with clear separa
 - 💼 **LinkedIn**: [linkedin.com/in/jiang-zong-yu](https://www.linkedin.com/in/jiang-zong-yu/?locale=en_US)
 - 📧 **Email**: [wesz7z8z9@gmail.com](mailto:wesz7z8z9@gmail.com)
 - 🐙 **GitHub**: [github.com/yujiang777](https://github.com/yujiang777)
-- 📱 **Location**: Taiwan, Available for Remote Work
+- 📱 **Location**: Singapore, Available for Remote Work
 
 ---
 
