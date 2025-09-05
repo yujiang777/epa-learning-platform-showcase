@@ -127,7 +127,6 @@ Our platform follows **Domain-Driven Design (DDD)** principles with clear separa
 
 - **Load Balancer**: Distributes traffic across multiple application instances
 - **Application Tier**: Scalable FastAPI containers with health checks
-- **Cache Layer**: Redis cluster for session data and query caching
 - **Database Tier**: PostgreSQL with read replicas for scalability
 - **AI Services**: Dedicated microservices for OpenAI and Gemini integration
 - **Monitoring Stack**: Comprehensive logging, metrics, and alerting
@@ -137,16 +136,13 @@ Our platform follows **Domain-Driven Design (DDD)** principles with clear separa
 
 ## 👨‍💻 About the Developer
 
-**江宗昱 (Yu Jiang)** - *Senior Full-Stack Developer & Technical Architect*
+**江宗諭 (Yu Jiang)** - *Senior Full-Stack Developer & Technical Architect*
 
 🎯 **Specialized in building scalable educational technology platforms with enterprise-grade architecture and AI integration.**
 
 ### 💻 Core Expertise
-- **Backend Architecture**: Python, FastAPI, Domain-Driven Design, PostgreSQL, Redis
-- **Frontend Development**: React, TypeScript, Modern CSS, Responsive Design
-- **AI Integration**: OpenAI, LangChain, Vector Databases, ML Pipeline Development
-- **System Design**: Microservices, Event-Driven Architecture, Performance Optimization
-- **DevOps & Cloud**: Docker, CI/CD, AWS, Monitoring, Scalability Planning
+- **Backend Architecture**: Python, FastAPI, Domain-Driven Design, PostgreSQL
+- **AI Integration**: OpenAI, LangChain, Vector Databases, ML Pipeline Development, AutoGen AI Agent
 
 ### 🏆 Key Achievements
 - 🚀 **Built EPA Platform** supporting 10,000+ concurrent users with 99.9% uptime
