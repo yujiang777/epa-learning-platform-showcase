@@ -145,13 +145,15 @@ Our platform follows **Domain-Driven Design (DDD)** principles with clear separa
 - **AI Integration**: OpenAI, LangChain, Vector Databases, ML Pipeline Development, AutoGen AI Agent
 
 ### 🏆 Key Achievements
-- 🚀 **Built EPA Platform** supporting 10,000+ concurrent users with 99.9% uptime
-- ⚡ **Optimized system performance** by 75% through advanced caching and query optimization
-- 🤖 **Integrated dual-AI engine** achieving 85% accuracy in personalized learning recommendations
-- 🏗️ **Architected enterprise-grade DDD system** with 5 domain separation and clean interfaces
-- ✍️ **Developed AI content writing system** with real-time SEO optimization, boosting clients' organic search rankings
-- 🤖 **Built smart customer service chatbot** with personalized recommendations and automated support processes
-- 🎯 **EPA Project Interest** - Currently engaging with potential clients for collaboration opportunities
+
+**🎯 EPA Learning Platform**
+Currently engaging with potential clients for collaboration opportunities.
+
+**✍️ AI-Powered Content Writing System**
+Developed and deployed an award-winning AI-powered content writing system that integrates real-time trending keywords with product information to generate high-quality, SEO-optimized articles, successfully increasing clients' organic search rankings and online visibility.
+
+**🤖 Smart Customer Service Chatbot**
+Architected a smart customer service chatbot that combines standard support with personalized product recommendations. The system automates processes like returns and exchanges, enhancing customer satisfaction and operational efficiency.
 
 ### 📞 Let's Connect
 - 💼 **LinkedIn**: [linkedin.com/in/jiang-zong-yu](https://www.linkedin.com/in/jiang-zong-yu/?locale=en_US)
