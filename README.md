@@ -149,6 +149,9 @@ Our platform follows **Domain-Driven Design (DDD)** principles with clear separa
 - ⚡ **Optimized system performance** by 75% through advanced caching and query optimization
 - 🤖 **Integrated dual-AI engine** achieving 85% accuracy in personalized learning recommendations
 - 🏗️ **Architected enterprise-grade DDD system** with 5 domain separation and clean interfaces
+- ✍️ **Developed AI content writing system** with real-time SEO optimization, boosting clients' organic search rankings
+- 🤖 **Built smart customer service chatbot** with personalized recommendations and automated support processes
+- 🎯 **EPA Project Interest** - Currently engaging with potential clients for collaboration opportunities
 
 ### 📞 Let's Connect
 - 💼 **LinkedIn**: [linkedin.com/in/jiang-zong-yu](https://www.linkedin.com/in/jiang-zong-yu/?locale=en_US)
