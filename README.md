@@ -9,10 +9,7 @@
 
 ## 🎯 Project Overview
 
-**EPA (Educational Practice Application)** is a comprehensive online learning and examination platform designed to revolutionize how students prepare for academic assessments through AI-driven personalized learning experiences.
-
-### 🚀 One-Sentence Pitch
-*A scalable educational SaaS platform that combines Domain-Driven Design architecture with dual-AI engine integration, supporting 10,000+ concurrent users with sub-200ms response times.*
+An AI-powered practice platform specifically designed for Taiwan's education system. The goal is to provide personalized learning assistance through AI, helping test-takers efficiently master key concepts, overcome weaknesses, and ultimately achieve success in exams or job applications.
 
 ---
 
@@ -24,11 +21,10 @@
 [![EPA Platform Demo](docs/images/demo-thumbnail.png)](https://your-youtube-demo-link.com)
 
 **Demo Highlights:**
-- ⚡ **Real-time Practice Sessions** with instant feedback
-- 🤖 **AI-Powered Question Analysis** using GPT-4 + Gemini
+- ⚡ **Dual Practice Modes** - Exam Mode / Practice Mode
+- 🤖 **Multi-AI Model Support** - OpenAI/Gemini/Claude explanations
 - 📊 **Personalized Learning Analytics** with progress tracking
-- 📱 **Responsive Design** across all devices
-- 🚀 **Sub-second Performance** under high load
+- 📚 **Multi-Subject Mixed Practice** with various question types
 
 ---
 
@@ -36,49 +32,43 @@
 
 ### 🎯 Market Challenge
 Traditional online learning platforms suffer from:
-- **Lack of Personalization**: One-size-fits-all approach ignores individual learning patterns
-- **Poor Scalability**: Systems crash under moderate concurrent load
-- **Limited Analytics**: No actionable insights into learning progress
-- **Suboptimal User Experience**: Slow loading times and non-responsive interfaces
+- **Limited Practice Scope**: Can only practice with current exam paper content, lack of personalization
+- **No AI Explanation**: Only mindless question solving without intelligent explanations
+- **Complex Systems**: Overly complicated interfaces leading to poor user experience
 
 ### 🛡️ Our Solution: EPA Platform
-We built an enterprise-grade learning platform that addresses these pain points through:
-- **AI-Driven Personalization**: Dual-engine AI system (OpenAI + Gemini) for tailored learning experiences
-- **Scalable Architecture**: Domain-Driven Design supporting 10K+ concurrent users
-- **Advanced Analytics**: Real-time learning pattern analysis and recommendations
-- **Performance-First Design**: Sub-200ms API response times with dual-tier caching
+We built an AI-powered learning platform that addresses these pain points through:
+- **Multi-AI Analysis Support**: Quick analysis/detailed analysis with multiple AI models
+- **Dual Practice Modes**: Practice mode for fast learning with AI assistance, Exam mode supporting mixed subjects testing
+- **Personalized Learning Design**: Question shuffling/option shuffling to prevent muscle memory and ensure true understanding
+- **AI-Enhanced Fill-in-the-Blank**: AI-powered modification of fill-in-the-blank questions
+- **Simple & Intuitive Interface**: Easy-to-use design that anyone can understand and navigate
 
 ---
 
 ## ✨ Core Features & Capabilities
 
-### 🎮 Intelligent Practice Engine
-![Practice Interface](docs/images/demo-practice.png)
-- **Real-time Question Analysis**: Instant AI explanations for incorrect answers
-- **Adaptive Difficulty**: Dynamic question selection based on performance
-- **Progress Tracking**: Comprehensive learning journey visualization
-- **Multi-format Support**: Multiple choice, essay, and interactive questions
+### 🤖 AI Smart Analysis Assistant
+![AI Smart Analysis Assistant](docs/images/AI%20Smart%20Analysis%20Assistant.png)
+- **Multi-AI Model Support**: Choose from OpenAI, Gemini Flash, Claude for explanations
+- **Dual Analysis Modes**: ⚡ Quick Analysis (1-2 mins) or 📚 Detailed Analysis (2-3 mins)
+- **Comprehensive Question Breakdown**: Wrong answer analysis, correct answer explanation, key concepts
+- **Personalized Learning Insights**: Common mistakes identification and improvement suggestions
+- **Learning Mode Integration**: AI-powered assistance specifically designed for practice sessions
 
-### 🤖 Dual-AI Analysis System
-![AI Analysis](docs/images/demo-ai-analysis.png)
-- **OpenAI GPT-4**: Complex question analysis and detailed explanations
-- **Google Gemini**: Multimedia content processing and visual recommendations
-- **Vector Embeddings**: Intelligent similar question suggestions
-- **Learning Pattern Recognition**: Automated weakness identification and improvement paths
+### 🎯 Learning Mode & Exam Mode
+![Practice Modes](docs/images/demo-practice-modes.png.png)
+- **Learning Mode**: Quick single-question practice with instant answer feedback for rapid learning
+- **Exam Mode**: Comprehensive testing experience with question number randomization and option shuffling
+- **Flexible Practice**: Switch between focused learning and realistic exam simulation
+- **Anti-Memory Training**: Randomized elements prevent muscle memory and ensure true comprehension
 
-### 📊 Advanced Learning Analytics
+### 📊 Advanced Learning Analytics (Coming Soon)
 ![Analytics Dashboard](docs/images/demo-dashboard.png)
-- **Performance Metrics**: Real-time progress tracking with detailed insights
-- **Knowledge Gap Analysis**: AI-powered weakness detection and recommendations
-- **Learning Path Optimization**: Personalized study plans based on individual patterns
-- **Comparative Analytics**: Peer performance comparison and benchmarking
-
-### 📱 Enterprise-Grade Mobile Experience
-![Mobile Interface](docs/images/demo-mobile.png)
-- **Responsive Design**: Seamless experience across all device sizes
-- **Offline Capability**: Continue learning without internet connection
-- **Push Notifications**: Smart reminders and achievement notifications
-- **Accessibility Compliance**: WCAG 2.1 AA standard adherence
+- **Question Type Classification**: Using embedding techniques for intelligent categorization
+- **Similar Weakness Analysis**: AI-powered identification of related knowledge gaps
+- **Performance Tracking**: Comprehensive learning progress monitoring
+- **Personalized Insights**: Data-driven recommendations for improvement
 
 ---
 
