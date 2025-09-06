@@ -1,7 +1,7 @@
 # 🎓 EPA Learning Platform
 > **Enterprise-Grade Educational Practice Platform with AI-Powered Personalized Learning**
 
-[![Live Demo](https://img.shields.io/badge/🎥_Live_Demo-Watch_Now-red?style=for-the-badge)](https://your-demo-video-link.com)
+[![Live Demo](https://img.shields.io/badge/🎥_Live_Demo-Watch_Now-red?style=for-the-badge)](docs/videos/epa_video.mp4)
 [![Architecture](https://img.shields.io/badge/🏗️_Architecture-View_Details-blue?style=for-the-badge)](#-system-architecture)
 [![Contact](https://img.shields.io/badge/📧_Contact-Let's_Connect-green?style=for-the-badge)](mailto:wesz7z8z9@gmail.com)
 
@@ -18,7 +18,7 @@ An AI-powered practice platform specifically designed for Taiwan's education sys
 ### 📺 Full System Demonstration (3 minutes)
 > **Watch the complete feature walkthrough showcasing real-time AI analysis, personalized learning paths, and enterprise-grade performance.**
 
-[![EPA Platform Demo](docs/images/demo-thumbnail.png)](https://your-youtube-demo-link.com)
+[![EPA Platform Demo](docs/images/demo-thumbnail.png)](docs/videos/epa_video.mp4)
 
 **Demo Highlights:**
 - ⚡ **Dual Practice Modes** - Exam Mode / Practice Mode
@@ -190,7 +190,7 @@ Architected a smart customer service chatbot that combines standard support with
 **If this project interests you or you'd like to discuss potential collaboration opportunities, please don't hesitate to reach out!**
 
 [![Contact Me](https://img.shields.io/badge/📧_Contact_Me-Let's_Connect-success?style=for-the-badge)](mailto:wesz7z8z9@gmail.com)
-[![View Demo](https://img.shields.io/badge/🎥_View_Demo-Watch_Now-red?style=for-the-badge)](https://your-demo-link.com)
+[![View Demo](https://img.shields.io/badge/🎥_View_Demo-Watch_Now-red?style=for-the-badge)](docs/videos/epa_video.mp4)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Connect-blue?style=for-the-badge)](https://www.linkedin.com/in/jiang-zong-yu/?locale=en_US)
 
 ---
