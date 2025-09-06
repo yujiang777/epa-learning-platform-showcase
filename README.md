@@ -18,7 +18,7 @@ An AI-powered practice platform specifically designed for Taiwan's education sys
 ### 📺 Full System Demonstration (3 minutes)
 > **Watch the complete feature walkthrough showcasing real-time AI analysis, personalized learning paths, and enterprise-grade performance.**
 
-[🎥 **觀看 EPA 平台完整示範**](https://youtu.be/pKVuikzzaoA)
+[🎥 **Demo Video**](https://youtu.be/pKVuikzzaoA)
 
 **Demo Highlights:**
 - ⚡ **Dual Practice Modes** - Exam Mode / Practice Mode
