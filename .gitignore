@@ -29,6 +29,8 @@ docs/videos/*.avi
 
 # Keep video folder structure but ignore large files
 !docs/videos/.gitkeep
+# Allow specific demo video
+!docs/videos/epa_video.mp4
 
 # Node modules (if any documentation tools used)
 node_modules/
