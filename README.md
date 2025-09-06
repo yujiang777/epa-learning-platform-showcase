@@ -96,20 +96,20 @@ Our platform follows **Domain-Driven Design (DDD)** principles with clear separa
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                        Client Applications                       │
+│                        Client Applications                      │
 │           React SPA │ Mobile App │ Admin Dashboard              │
 ├─────────────────────────────────────────────────────────────────┤
 │                        API Gateway Layer                        │
 │            FastAPI │ Authentication │ Rate Limiting             │
 ├─────────────────────────────────────────────────────────────────┤
 │                     Application Services                        │
-│    Use Cases │ DTOs │ Command/Query Handlers │ Events          │
+│    Use Cases │ DTOs │ Command/Query Handlers │ Events           │
 ├─────────────────────────────────────────────────────────────────┤
 │                      Domain Layer (Core)                        │
-│  Identity │ Learning │ Practice │ Analytics │ AI Enhancement   │
+│  Identity │ Learning │ Practice │ Analytics │ AI Enhancement    │
 ├─────────────────────────────────────────────────────────────────┤
 │                   Infrastructure Layer                          │
-│  PostgreSQL │ Redis Cache │ OpenAI │ Gemini │ Monitoring       │
+│  PostgreSQL │ Redis Cache │ OpenAI │ Gemini │ Monitoring        │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
